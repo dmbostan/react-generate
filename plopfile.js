@@ -35,6 +35,11 @@ module.exports = (plop) => {
                 path: '{{path}}/{{name}}/{{name}}.test.tsx',
                 templateFile: 'templates/Component.test.tsx.hbs',
             },
+            {
+                type: 'add',
+                path: '{{path}}/{{name}}/{{name}}.stories.tsx',
+                templateFile: 'templates/Component.stories.tsx.hbs',
+            },
         ],
     });
 };
