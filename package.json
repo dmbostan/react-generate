@@ -1,0 +1,11 @@
+{
+  "name": "react-generate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:dmbostan/react-generate.git",
+  "author": "Dmitri Bostan <dm.bostan@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "plop": "^4.0.0"
+  }
+}
