@@ -4,7 +4,7 @@ import { Demo } from './Demo';
 
 const meta: Meta<typeof Demo> = {
     component: Demo,
-    };
+};
 
 export default meta;
 
