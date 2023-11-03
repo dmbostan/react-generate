@@ -1,0 +1,17 @@
+import React from 'react';
+import {{name}} from './{{name}}';
+import { render } from '@testing-library/react';
+
+describe('{{name}}', () => {
+    it('should contain text', () => {
+        const { getByText } = render(<{{name}} text="Hello, World!" />);
+        const element = getByText('Hello, World!');
+        expect(element).toBeInTheDocument();
+    });
+
+    it('should match snapshot', () => {
+        const component = renderer.create(<{{name}} text="Hello, World!" />);
+        const tree = component.toJSON();
+        expect(tree).toMatchSnapshot();
+    });
+})
